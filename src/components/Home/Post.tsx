@@ -58,7 +58,7 @@ export function Post({ post }: PostProps) {
 
 				<div className='feed__inputOptions'>
 					<div className='inputOption'>
-						<AiFillLike id='like' onClick={toggleLike} className={heartIconClasses} size={40} />
+						<AiFillLike id='like' onClick={toggleLike} className={heartIconClasses} size={20} />
 
 						<h4>Like</h4>
 					</div>
