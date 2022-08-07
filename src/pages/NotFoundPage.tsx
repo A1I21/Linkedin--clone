@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom"
 import "../styles/index.css"
 export function NotFoundPage() {
 
@@ -21,7 +22,7 @@ export function NotFoundPage() {
 
                   <p>the page you are looking for not avaible!</p>
 
-                  <a href="http://localhost:3000/home" className="link_404">Go to Home</a>
+                  <Link to="/home"><div className="link_404">Go to Home</div></Link>
                 </div>
               </div>
             </div>
