@@ -1,12 +1,20 @@
-.hero{
-  width: 98.5vw;
+/* * {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  transition: 0.4s;
 }
+
+body {
+  height: 100vh;
+} */
+
 header {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 0 100px;
-  margin-right: 250px;
 }
 
 .logo svg {
@@ -72,6 +80,16 @@ li:hover>svg {
   cursor: pointer;
 }
 
+.join::before {
+  content: "";
+  height: 100%;
+  width: 2px;
+  background-color: rgba(0, 0, 0, 0.1);
+  position: absolute;
+  left: -10px;
+  top: 0;
+  z-index: 2;
+}
 
 .sign {
   background-color: transparent;
@@ -85,16 +103,6 @@ li:hover>svg {
 .sign:hover {
   background-color: #0a66c210;
   cursor: pointer;
-}
-.sign::before {
-  content: "";
-  height: 100%;
-  width: 2px;
-  background-color: rgba(0, 0, 0, 0.1);
-  position: absolute;
-  left: -10px;
-  top: 0;
-  z-index: 2;
 }
 
 .left-section {
@@ -146,7 +154,7 @@ section {
 .right-section {
   background-image: url('https://media.licdn.com/media//AAYQAgSrAAgAAQAAAAAAADCLr3coQt8AQiyj4giyWxfjsg.svg');
   height: calc(100vh - 73px);
-  width: 50vw;
+  width: 40vw;
   background-size: cover;
   background-position: left;
   background-repeat: no-repeat;
