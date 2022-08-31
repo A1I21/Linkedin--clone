@@ -29,14 +29,14 @@ export function Experience({ experience }: ExperienceProps) {
 					</div>
 				</div>
 			</Link>
-			<hr />
+			{/* <hr /> */}
 		</>
 	);
 }
 
 export function ExperienceProfile() {
 	const [showExperience, setShowExperience] = useState(false);
-	const experienceDivs = (experiences ?? []).map((experience: any) => <Experience experience={experience} />);
+	const experienceDivs = experiences.map((experience: any) => <Experience experience={experience} />);
 
 	return (
 		<>

@@ -24,10 +24,7 @@ export function Login() {
 
     return (
         <>
-
-
             <form onSubmit={handleSubmit} >
-
                 <div className="container-login-page">
                     <h2>Linked<span>
                         <i className="fab fa-linkedin"></i>

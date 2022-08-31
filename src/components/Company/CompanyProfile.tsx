@@ -11,7 +11,7 @@ export function CompanyProfilePage() {
 
 					<input type='file' className='input-file' id="imgInp" />
 					<button className='input-btn upload' id='input_btn'><i className="fa fa-camera cam"></i></button>
-					<img className="cover" id="blah" src="https://media-exp1.licdn.com/dms/image/C4D1BAQFcwLc-JZgm1A/company-background_10000/0/1625640033999?e=1660114800&v=beta&t=KipM6oaDPPmIsiIf9W8iVHVTzplISbbYluiVmTrC_mA" alt="" />
+					<img className="cover" id="blah" src="https://media-exp1.licdn.com/dms/image/C4D1BAQFcwLc-JZgm1A/company-background_10000/0/1625640033999?e=1662548400&v=beta&t=0aqxDpwbT7yJqmG17CAcmGjhgoK6HkfzHD5hkURlBOc" alt="" />
 					<div className="dp-container"><img className="dp-company" src='https://media-exp1.licdn.com/dms/image/C4D0BAQFNR_cY6gfEPw/company-logo_100_100/0/1576696557525?e=1667433600&v=beta&t=flyOIf50DWyTo9QVaI8Sh3MBWi21Mb10JsWLEOsQle0' alt="" />
 						<button className='pen-btn upload'><i className="fa fa-pencil pen"></i></button>
 

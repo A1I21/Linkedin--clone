@@ -32,7 +32,7 @@ export function Feed() {
 						<div className='contain-search-img'>
 							<img
 								className='img-reeserch-head'
-								src='https://media-exp1.licdn.com/dms/image/D4D35AQEas4EsfKUZxQ/profile-framedphoto-shrink_100_100/0/1624947890919?e=1660219200&v=beta&t=8f3hXhPad2hNRh_hTl-UoxwXIiWlV0cjTEgCzxwnr5I'
+								src='https://media-exp1.licdn.com/dms/image/D4D35AQEGx_kaTSiVyg/profile-framedphoto-shrink_100_100/0/1661898275920?e=1662548400&v=beta&t=FYjhT18Lc7TzajiEGi2QwDl5CPePL7q_UUrhtywPF8Y'
 								alt=''
 							/>
 

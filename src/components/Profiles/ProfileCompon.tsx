@@ -13,8 +13,8 @@ export function ProfilePage() {
 
 					<input type='file' className='input-file' id="imgInp" />
 					<button className='input-btn upload' id='input_btn'><i className="fa fa-camera cam"></i></button>
-					<img className="cover" id="blah" src="https://images.ctfassets.net/7thvzrs93dvf/wpImage18643/2f45c72db7876d2f40623a8b09a88b17/linkedin-default-background-cover-photo-1.png?w=800&q=100" alt="" />
-					<div className="dp-container"><img className="dp" src='https://media-exp1.licdn.com/dms/image/D4D35AQEas4EsfKUZxQ/profile-framedphoto-shrink_400_400/0/1624947890919?e=1659988800&v=beta&t=zX2J4Oa5mNgcSQJB8o84-Zmt-OQdy3kSUkbrD1qchmY' alt="" />
+					<img className="cover" id="blah" src="https://media-exp1.licdn.com/dms/image/C4D16AQFS1cnJZfeaow/profile-displaybackgroundimage-shrink_350_1400/0/1661898002461?e=1667433600&v=beta&t=EaKn2IX0db8xcYOdoPjKcWrYA_XmMPUeQLMQyployTs" alt="" />
+					<div className="dp-container"><img className="dp" src='https://media-exp1.licdn.com/dms/image/D4D35AQEGx_kaTSiVyg/profile-framedphoto-shrink_400_400/0/1661898275920?e=1662548400&v=beta&t=4fTdW_OHmlh9dWuFitBs5QP8g5xdxbKjS34gdoMTtA0' alt="" />
 						<button className='pen-btn upload'><i className="fa fa-pencil pen"></i></button>
 
 
@@ -43,11 +43,11 @@ export function ProfilePage() {
 							<div className="current">
 
 
-								<div className='rigt-side-profile-main-box'>
+								<a href=""><div className='rigt-side-profile-main-box'>
 									<img src="https://media-exp1.licdn.com/dms/image/C560BAQFrJStbvraiXw/company-logo_100_100/0/1519117083891?e=1667433600&v=beta&t=zWEmBCyhvwUNW_VtLFxdsOGc0CrDp9cepY0YYoeQitI" alt="" className="icon" />
 									<span className="cmpy clg">الاتحاد السعودي للامن السيبراني والبرمجة والدرونز</span>
 
-								</div>
+								</div></a>
 								<div className='rigt-side-profile-main-box'>
 									<img src="https://media-exp1.licdn.com/dms/image/C4E0BAQGXpatISgXjOw/company-logo_100_100/0/1594741310804?e=1667433600&v=beta&t=Ca9WqyskZda3HkFsYr-2fbQYYXO_GtLPW3keCa5kYIU" alt="" className="icon" />
 									<span className="cmpy">Al-Baha University</span>

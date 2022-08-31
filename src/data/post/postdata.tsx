@@ -11,7 +11,7 @@ export interface IPost {
 export const initialPosts: IPost[] = [
 	{
 		id: '1',
-		avatarUrl: 'https://i.pravatar.cc/300?img=1',
+		avatarUrl: 'https://media.geeksforgeeks.org/wp-content/uploads/20220608214422/galaryImage8.png',
 		name: 'Mohanad Al-Safadi',
 		bio: 'Cyber security expert',
 		message: 'hi im the messag ',

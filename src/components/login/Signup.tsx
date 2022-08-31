@@ -24,11 +24,10 @@ export function Signup() {
         }
         let usersArray = [...UsersData]
         const body = {
-            id: '1',
             name: form.elements.name.value,
             email: form.elements.email.value,
             password: form.elements.password.value,
-            avatar: "https://avatars.githubusercontent.com/u/60841988?s=40&v=4",
+            photo: "https://avatars.githubusercontent.com/u/60841988?s=40&v=4",
             post: [],
             educations: [],
             experience: [],

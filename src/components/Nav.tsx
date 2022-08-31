@@ -23,10 +23,10 @@ export function Nav() {
 						<h3>Home Page</h3>
 					</div></Link>
 					<Link to="/network">
-					<a href="#"><div className='headerOption'>
-						<FaUserFriends />
-						<h3>My network</h3>
-					</div></a></Link>
+						<a href="#"><div className='headerOption'>
+							<FaUserFriends />
+							<h3>My network</h3>
+						</div></a></Link>
 
 					<Link to="/jobs"><a href="#"><div className='headerOption'>
 						<FaShoppingBag />
@@ -48,7 +48,7 @@ export function Nav() {
 					</div></a>
 
 					<Link to="/profile"><div className='headerOption'>
-						<img className='avtar-nav' src="https://media-exp1.licdn.com/dms/image/D4D35AQEas4EsfKUZxQ/profile-framedphoto-shrink_100_100/0/1624947890919?e=1660204800&v=beta&t=jNg6Rx51LowOcSqB9chzmkoOweSVtRUcpD7SneTtC-A" alt="" />
+						<img className='avtar-nav' src="https://media-exp1.licdn.com/dms/image/D4D35AQEGx_kaTSiVyg/profile-framedphoto-shrink_100_100/0/1661898275920?e=1662548400&v=beta&t=FYjhT18Lc7TzajiEGi2QwDl5CPePL7q_UUrhtywPF8Y" alt="" />
 						<h3>My Profile</h3>
 					</div></Link>
 
